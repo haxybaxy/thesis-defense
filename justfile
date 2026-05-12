@@ -1,4 +1,4 @@
-scenes := "TitleSlide Outline Equation"
+scenes := "TitleSlide Outline DirectForces BarnesHutIdea MortonCodes LBVHTraversal Pipeline Equation"
 
 # List available recipes
 default:
@@ -16,12 +16,22 @@ render file scene quality="l":
 render-all:
     uv run manim-slides render slides/title.py TitleSlide --quality l
     uv run manim-slides render slides/outline.py Outline --quality l
+    uv run manim-slides render slides/forces.py DirectForces --quality l
+    uv run manim-slides render slides/barnes_hut.py BarnesHutIdea --quality l
+    uv run manim-slides render slides/morton.py MortonCodes --quality l
+    uv run manim-slides render slides/tree.py LBVHTraversal --quality l
+    uv run manim-slides render slides/pipeline.py Pipeline --quality l
     uv run manim-slides render slides/equation.py Equation --quality l
 
 # Render all slides at high quality (for the actual defense)
 render-final:
     uv run manim-slides render slides/title.py TitleSlide --quality h
     uv run manim-slides render slides/outline.py Outline --quality h
+    uv run manim-slides render slides/forces.py DirectForces --quality h
+    uv run manim-slides render slides/barnes_hut.py BarnesHutIdea --quality h
+    uv run manim-slides render slides/morton.py MortonCodes --quality h
+    uv run manim-slides render slides/tree.py LBVHTraversal --quality h
+    uv run manim-slides render slides/pipeline.py Pipeline --quality h
     uv run manim-slides render slides/equation.py Equation --quality h
 
 # Live presentation
