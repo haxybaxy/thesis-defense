@@ -1,0 +1,82 @@
+name: Deploy slides
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            ffmpeg \
+            dvisvgm \
+            libcairo2-dev \
+            libpango1.0-dev \
+            pkg-config \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-latex-recommended \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-science \
+            texlive-pictures
+
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Install Python
+        run: uv python install
+
+      - name: Sync project
+        run: uv sync --frozen
+
+      - uses: extractions/setup-just@v2
+
+      - name: Cache manim render artefacts
+        uses: actions/cache@v4
+        with:
+          path: media
+          key: manim-media-${{ runner.os }}-${{ hashFiles('slides/**/*.py', 'pyproject.toml', 'uv.lock') }}
+
+      - name: Render scenes
+        run: just render-final
+
+      - name: Build HTML deck
+        run: just html
+
+      - name: Stage site
+        run: |
+          mkdir -p _site
+          cp defense.html _site/index.html
+          cp -r defense_assets _site/defense_assets
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

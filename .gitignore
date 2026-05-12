@@ -27,6 +27,13 @@ slides/files/
 # Manim Slides presentation cache
 .manim-slides/
 
+# Manim Slides export artefacts
+defense.html
+defense.pdf
+defense.pptx
+defense_assets/
+_site/
+
 # uv
 # (keep uv.lock committed — it's the reproducible build artifact)
 
