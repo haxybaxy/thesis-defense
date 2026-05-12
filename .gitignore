@@ -28,10 +28,9 @@ slides/files/
 .manim-slides/
 
 # Manim Slides export artefacts
-defense.html
+# defense.html and defense_assets/ ARE committed — they are the deploy payload.
 defense.pdf
 defense.pptx
-defense_assets/
 _site/
 
 # uv
