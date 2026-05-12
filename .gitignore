@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Manim / Manim Slides output
+media/
+slides/files/
+*.mp4
+*.mov
+*.gif
+*.png
+!docs/**/*.png
+!assets/**/*.png
+
+# Manim Slides presentation cache
+.manim-slides/
+
+# uv
+# (keep uv.lock committed — it's the reproducible build artifact)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
