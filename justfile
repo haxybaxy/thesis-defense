@@ -38,9 +38,9 @@ render-final:
 present:
     uv run manim-slides present {{scenes}}
 
-# Export to standalone HTML
+# Export to a single self-contained HTML file (videos embedded as base64)
 html out="defense.html":
-    uv run manim-slides convert {{scenes}} {{out}}
+    uv run manim-slides convert --one-file {{scenes}} {{out}}
 
 # Export to PDF
 pdf out="defense.pdf":

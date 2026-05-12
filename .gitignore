@@ -28,9 +28,10 @@ slides/files/
 .manim-slides/
 
 # Manim Slides export artefacts
-# defense.html and defense_assets/ ARE committed — they are the deploy payload.
+# defense.html is committed — it's the deploy payload (self-contained via --one-file).
 defense.pdf
 defense.pptx
+defense_assets/
 _site/
 
 # uv

@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'defense.html'
-      - 'defense_assets/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -31,7 +30,6 @@ jobs:
         run: |
           mkdir -p _site
           cp defense.html _site/index.html
-          cp -r defense_assets _site/defense_assets
 
       - uses: actions/upload-pages-artifact@v3
         with:
