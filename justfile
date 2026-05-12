@@ -1,4 +1,4 @@
-scenes := "TitleSlide Outline DirectForces BarnesHutIdea MortonCodes LBVHTraversal Pipeline Equation"
+scenes := "TitleSlide Outline DirectForces BarnesHutIdea MortonCodes LBVHTraversal Pipeline"
 
 # List available recipes
 default:
@@ -21,7 +21,6 @@ render-all:
     uv run manim-slides render slides/morton.py MortonCodes --quality l
     uv run manim-slides render slides/tree.py LBVHTraversal --quality l
     uv run manim-slides render slides/pipeline.py Pipeline --quality l
-    uv run manim-slides render slides/equation.py Equation --quality l
 
 # Render all slides at high quality (for the actual defense)
 render-final:
@@ -32,7 +31,6 @@ render-final:
     uv run manim-slides render slides/morton.py MortonCodes --quality h
     uv run manim-slides render slides/tree.py LBVHTraversal --quality h
     uv run manim-slides render slides/pipeline.py Pipeline --quality h
-    uv run manim-slides render slides/equation.py Equation --quality h
 
 # Live presentation
 present:
