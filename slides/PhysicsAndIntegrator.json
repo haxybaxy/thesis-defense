@@ -1,0 +1,79 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PhysicsAndIntegrator/615022345c677b9574a4ff698cfd9de4b29dacd18f0b06365387a3b83558dc69.mp4",
+      "rev_file": "slides/files/PhysicsAndIntegrator/615022345c677b9574a4ff698cfd9de4b29dacd18f0b06365387a3b83558dc69_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PhysicsAndIntegrator/512a40d14cb21ae24827e60fa8832873487f0874f5a08d7a7a9fea40dd2007bc.mp4",
+      "rev_file": "slides/files/PhysicsAndIntegrator/512a40d14cb21ae24827e60fa8832873487f0874f5a08d7a7a9fea40dd2007bc_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PhysicsAndIntegrator/037c4d337479f7bbea9433aa6378f700d6ce4fa357124a7b2084cb0525188f09.mp4",
+      "rev_file": "slides/files/PhysicsAndIntegrator/037c4d337479f7bbea9433aa6378f700d6ce4fa357124a7b2084cb0525188f09_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PhysicsAndIntegrator/ae28defed054bf6e4056f67c34911c18e5e777b55bd50cf6aadee013ab264f80.mp4",
+      "rev_file": "slides/files/PhysicsAndIntegrator/ae28defed054bf6e4056f67c34911c18e5e777b55bd50cf6aadee013ab264f80_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PhysicsAndIntegrator/5e75213f83a8c3e8dc2efd7562f2277f44f1513979cc19d3e51127d845527cf3.mp4",
+      "rev_file": "slides/files/PhysicsAndIntegrator/5e75213f83a8c3e8dc2efd7562f2277f44f1513979cc19d3e51127d845527cf3_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}

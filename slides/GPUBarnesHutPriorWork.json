@@ -1,0 +1,93 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/b949d8b71da8c0930591dc2367720dfa11c4614ea438b43fccbb6d4061b9d4d7.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/b949d8b71da8c0930591dc2367720dfa11c4614ea438b43fccbb6d4061b9d4d7_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/ba023d4c82c7d979a2b39809e0918c7080f473997588bd8f4c4af0e5d549424b.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/ba023d4c82c7d979a2b39809e0918c7080f473997588bd8f4c4af0e5d549424b_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/6f6c8749e3cb608d8b0786369f43dc50bd72a6d2349442d1ce51cdec80ab5e69.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/6f6c8749e3cb608d8b0786369f43dc50bd72a6d2349442d1ce51cdec80ab5e69_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/f430e2f47b2cd8e9fee159334925adba4e293d0f8052ee864b44e307f4964459.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/f430e2f47b2cd8e9fee159334925adba4e293d0f8052ee864b44e307f4964459_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/604c9ba59ba5c2d634ea81447bff5ff6d96b2b10f6a5ad2c8e4136c054790d2c.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/604c9ba59ba5c2d634ea81447bff5ff6d96b2b10f6a5ad2c8e4136c054790d2c_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/GPUBarnesHutPriorWork/0ebc1c94f9089abaa3e8793ca6ad3f565e423043954814f739f44ecf5b6ce95b.mp4",
+      "rev_file": "slides/files/GPUBarnesHutPriorWork/0ebc1c94f9089abaa3e8793ca6ad3f565e423043954814f739f44ecf5b6ce95b_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}

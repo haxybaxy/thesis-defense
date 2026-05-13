@@ -1,0 +1,65 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/ResearchQuestions/936dbf3054818187848a39da4307cd0af27f0004cbb8945395a83340d0f4f8d1.mp4",
+      "rev_file": "slides/files/ResearchQuestions/936dbf3054818187848a39da4307cd0af27f0004cbb8945395a83340d0f4f8d1_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/ResearchQuestions/0710d43846168b6b3bc650f5448276845ce3ff014b83c8f741a872a9fb3797f4.mp4",
+      "rev_file": "slides/files/ResearchQuestions/0710d43846168b6b3bc650f5448276845ce3ff014b83c8f741a872a9fb3797f4_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/ResearchQuestions/2b844a4ae24903e981c9247890ab310d3568500f57898d18c4b27bf78b2c984f.mp4",
+      "rev_file": "slides/files/ResearchQuestions/2b844a4ae24903e981c9247890ab310d3568500f57898d18c4b27bf78b2c984f_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/ResearchQuestions/87847fd5c18f1ce4b9229458d949f0b825920572fd90e8ef7a58a7b8724e7090.mp4",
+      "rev_file": "slides/files/ResearchQuestions/87847fd5c18f1ce4b9229458d949f0b825920572fd90e8ef7a58a7b8724e7090_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}

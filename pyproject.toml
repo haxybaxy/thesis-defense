@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "manim>=0.18",
     "manim-slides[manim]>=5.1",
+    "pyqt6>=6.11.0",
 ]
 
 [tool.uv]

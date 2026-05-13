@@ -1,0 +1,93 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/ede344175b57ae719c51ef441e468a7654d8e4bfe283f2e227d19fab71f021fe.mp4",
+      "rev_file": "slides/files/TheGap/ede344175b57ae719c51ef441e468a7654d8e4bfe283f2e227d19fab71f021fe_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/cc1d843b63963643e785d769bda24cd40142445676d8bf547bccb316d94e57a6.mp4",
+      "rev_file": "slides/files/TheGap/cc1d843b63963643e785d769bda24cd40142445676d8bf547bccb316d94e57a6_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/14e2b38b0c31469769dfff8e471295acf8dbb06bbe67d56d2beb5fa1905ca480.mp4",
+      "rev_file": "slides/files/TheGap/14e2b38b0c31469769dfff8e471295acf8dbb06bbe67d56d2beb5fa1905ca480_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/bce27285c8ed457f3ec439fe3b4419b2def2f884f581359afcd560366e62a553.mp4",
+      "rev_file": "slides/files/TheGap/bce27285c8ed457f3ec439fe3b4419b2def2f884f581359afcd560366e62a553_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/bb68d94089c479a1a7f627d511d0cbcb8093600ad5f1c137d2385f20b38638a5.mp4",
+      "rev_file": "slides/files/TheGap/bb68d94089c479a1a7f627d511d0cbcb8093600ad5f1c137d2385f20b38638a5_reversed.mp4"
+    },
+    {
+      "loop": true,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TheGap/f401579d2bcd8d3d4215b9aa12f25aea1a1f353912ef0e9b2f67bc6df473c638.mp4",
+      "rev_file": "slides/files/TheGap/f401579d2bcd8d3d4215b9aa12f25aea1a1f353912ef0e9b2f67bc6df473c638_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}

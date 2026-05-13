@@ -1,0 +1,79 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/BarnesHutTheory/e967ee8f5760632408b25a3b399ae150f9b652144460d28fd016d4d191018def.mp4",
+      "rev_file": "slides/files/BarnesHutTheory/e967ee8f5760632408b25a3b399ae150f9b652144460d28fd016d4d191018def_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/BarnesHutTheory/02abcefb6a51b487dc72bde6ed1f0b4f209223eddde590e483eeeb4df5b708b3.mp4",
+      "rev_file": "slides/files/BarnesHutTheory/02abcefb6a51b487dc72bde6ed1f0b4f209223eddde590e483eeeb4df5b708b3_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/BarnesHutTheory/873a77dde8947fb7bb3bc7264b5ce74ac9f6a49fc21d9cda81750651408f3a2c.mp4",
+      "rev_file": "slides/files/BarnesHutTheory/873a77dde8947fb7bb3bc7264b5ce74ac9f6a49fc21d9cda81750651408f3a2c_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/BarnesHutTheory/ba05fe1e5294fab9f691fe8ba705c139a6c50b5ac5642abf3ec2a8823ec8a367.mp4",
+      "rev_file": "slides/files/BarnesHutTheory/ba05fe1e5294fab9f691fe8ba705c139a6c50b5ac5642abf3ec2a8823ec8a367_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/BarnesHutTheory/79ec6ec1f102924d2c1b637617dec92f187bb4e8d7e886ff37fdcde6501553c9.mp4",
+      "rev_file": "slides/files/BarnesHutTheory/79ec6ec1f102924d2c1b637617dec92f187bb4e8d7e886ff37fdcde6501553c9_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}

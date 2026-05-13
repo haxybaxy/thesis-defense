@@ -1,0 +1,65 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PerRQDiscussion/fa8c5a3f379332c28d9e49d83c9ae8827774c7b5dee6c3f9ce825e031d144576.mp4",
+      "rev_file": "slides/files/PerRQDiscussion/fa8c5a3f379332c28d9e49d83c9ae8827774c7b5dee6c3f9ce825e031d144576_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PerRQDiscussion/09c775d57664ad79021fc9d4f50a52efd6b292351aa8f2df3d7506f139c7acf7.mp4",
+      "rev_file": "slides/files/PerRQDiscussion/09c775d57664ad79021fc9d4f50a52efd6b292351aa8f2df3d7506f139c7acf7_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PerRQDiscussion/58961eb697e8f5cb7257397f06b0709694d9cdd6b2e35a457569b52115874b20.mp4",
+      "rev_file": "slides/files/PerRQDiscussion/58961eb697e8f5cb7257397f06b0709694d9cdd6b2e35a457569b52115874b20_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/PerRQDiscussion/6ad1369b9b92d26116abec35159c54e042cc9174d5f39efbd6509edc340b4464.mp4",
+      "rev_file": "slides/files/PerRQDiscussion/6ad1369b9b92d26116abec35159c54e042cc9174d5f39efbd6509edc340b4464_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}
