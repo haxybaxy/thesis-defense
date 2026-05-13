@@ -22,13 +22,6 @@ class TitleSlide(Slide):
         author.next_to(subtitle, DOWN, buff=1.0)
         advisor.next_to(author, DOWN, buff=0.3)
 
-        self.play(Write(title))
-        self.play(FadeIn(subtitle, shift=UP * 0.3))
-        self.next_slide()
-
-        self.play(
-            FadeIn(author, shift=UP * 0.2),
-            FadeIn(advisor, shift=UP * 0.2),
-            lag_ratio=0.2,
-        )
+        self.add(title, subtitle, author, advisor)
+        self.wait(0.1)
         self.next_slide()
