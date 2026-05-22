@@ -9,8 +9,6 @@ class SingleCodebase(Slide):
             font_size=40,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
-        self.next_slide()
 
         # === Top: source box ===
         source_rect = Rectangle(width=4.2, height=0.8, color=BLUE_B, stroke_width=2)
@@ -18,8 +16,6 @@ class SingleCodebase(Slide):
             source_rect.get_center()
         )
         source = VGroup(source_rect, source_text).move_to(UP * 2.0)
-        self.play(FadeIn(source, shift=DOWN * 0.2))
-        self.next_slide()
 
         # === Middle: four backend boxes (with logos) ===
         backend_specs = [
@@ -50,10 +46,6 @@ class SingleCodebase(Slide):
         if backends.width > 13.0:
             backends.scale(13.0 / backends.width)
 
-        for b in backends:
-            self.play(FadeIn(b, shift=UP * 0.2), run_time=0.4)
-        self.next_slide()
-
         # arrows from source to each backend
         arrows = VGroup(
             *[
@@ -68,8 +60,6 @@ class SingleCodebase(Slide):
                 for b in backends
             ]
         )
-        self.play(LaggedStart(*[GrowArrow(a) for a in arrows], lag_ratio=0.1))
-        self.next_slide()
 
         # === Bottom: converge to Metal on M2 ===
         metal_rect = Rectangle(width=4.2, height=0.7, color=ORANGE, stroke_width=2)
@@ -91,9 +81,6 @@ class SingleCodebase(Slide):
                 for b in backends
             ]
         )
-        self.play(FadeIn(metal, shift=UP * 0.2))
-        self.play(LaggedStart(*[GrowArrow(a) for a in merge_arrows], lag_ratio=0.1))
-        self.next_slide()
 
         # baseline label off to the side
         baseline = Text(
@@ -102,5 +89,15 @@ class SingleCodebase(Slide):
             slant=ITALIC,
             color=GREY_B,
         ).to_edge(DOWN, buff=0.4)
-        self.play(FadeIn(baseline))
+
+        self.add(
+            heading,
+            source,
+            backends,
+            arrows,
+            metal,
+            merge_arrows,
+            baseline,
+        )
+        self.wait(0.1)
         self.next_slide()

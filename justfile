@@ -1,4 +1,4 @@
-scenes := "TitleSlide DemoPhone WebGLExamples WebGLLimits ShaderVsCompute ResearchQuestions ComputeCentric IntegratorConcept IntegratorOrbits IntegratorEquations TreeBuildConcept MortonZCurve MortonInterleave MortonSort LBVHBuild ForceEvalConcept DirectForces AllPairsForces BarnesHutIdea LBVHTraversal ExperimentalSetup UniSimBaseline RQ1Statement NScaling WhereTimeIsSpent DirectVsTree RQ2Statement CrossBackendVariation WebGPUvsMetal RQ3Statement BrowserVsNative Limitations FutureWork Conclusion BroaderImpact ThetaSweep"
+scenes := "TitleSlide DemoPhone WebGLExamples WebGLLimits ShaderVsCompute ResearchQuestions ComputeCentric IntegratorConcept IntegratorOrbits IntegratorEquations TreeBuildConcept MortonZCurve MortonInterleave MortonSort LBVHBuild ForceEvalConcept DirectForces AllPairsForces BarnesHutIdea LBVHTraversal ExperimentalSetup UniSimBaseline RQ1Statement NScaling WhereTimeIsSpent DirectVsTree RQ2Statement SingleCodebase CrossBackendVariation WebGPUvsMetal RQ3Statement BrowserVsNative Limitations FutureWork Conclusion BroaderImpact Pipeline ThetaSweep"
 
 # List available recipes
 default:
@@ -41,6 +41,7 @@ render-all:
     uv run manim-slides render slides/results_rq1a.py WhereTimeIsSpent --quality l
     uv run manim-slides render slides/results_rq1b.py DirectVsTree --quality l
     uv run manim-slides render slides/rq_statements.py RQ2Statement --quality l
+    uv run manim-slides render slides/approach_codebase.py SingleCodebase --quality l
     uv run manim-slides render slides/results_rq2_backends.py CrossBackendVariation --quality l
     uv run manim-slides render slides/results_rq2_metal.py WebGPUvsMetal --quality l
     uv run manim-slides render slides/rq_statements.py RQ3Statement --quality l
@@ -49,6 +50,7 @@ render-all:
     uv run manim-slides render slides/future_work.py FutureWork --quality l
     uv run manim-slides render slides/conclusion.py Conclusion --quality l
     uv run manim-slides render slides/broader_impact.py BroaderImpact --quality l
+    uv run manim-slides render slides/pipeline.py Pipeline --quality l
     uv run manim-slides render slides/results_quality.py ThetaSweep --quality l
 
 # Render all active slides at high quality (for the actual defense)
@@ -80,6 +82,7 @@ render-final:
     uv run manim-slides render slides/results_rq1a.py WhereTimeIsSpent --quality h
     uv run manim-slides render slides/results_rq1b.py DirectVsTree --quality h
     uv run manim-slides render slides/rq_statements.py RQ2Statement --quality h
+    uv run manim-slides render slides/approach_codebase.py SingleCodebase --quality h
     uv run manim-slides render slides/results_rq2_backends.py CrossBackendVariation --quality h
     uv run manim-slides render slides/results_rq2_metal.py WebGPUvsMetal --quality h
     uv run manim-slides render slides/rq_statements.py RQ3Statement --quality h
@@ -88,6 +91,7 @@ render-final:
     uv run manim-slides render slides/future_work.py FutureWork --quality h
     uv run manim-slides render slides/conclusion.py Conclusion --quality h
     uv run manim-slides render slides/broader_impact.py BroaderImpact --quality h
+    uv run manim-slides render slides/pipeline.py Pipeline --quality h
     uv run manim-slides render slides/results_quality.py ThetaSweep --quality h
 
 # Render every Slide subclass in a python file at -qh, then launch the presenter GUI.
