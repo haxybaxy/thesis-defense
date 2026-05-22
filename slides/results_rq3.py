@@ -12,8 +12,6 @@ class BrowserVsNative(Slide):
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
         self.add(heading)
-        self.wait(0.1)
-        self.next_slide()
 
         chart = (
             ImageMobject("assets/fig_web_native.png")
@@ -21,8 +19,6 @@ class BrowserVsNative(Slide):
             .next_to(heading, DOWN, buff=0.25)
         )
         self.add(chart)
-        self.wait(0.1)
-        self.next_slide()
 
         # surprise at N=1K (chart shows this only as a single sub-1.0 ratio point)
         surprise = CleanText(
@@ -32,5 +28,6 @@ class BrowserVsNative(Slide):
             color=GREEN_B,
         ).to_edge(DOWN, buff=0.4)
         self.add(surprise)
+
         self.wait(0.1)
         self.next_slide()

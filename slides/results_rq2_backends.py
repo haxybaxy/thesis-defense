@@ -31,9 +31,6 @@ class CrossBackendVariation(Slide):
         )
         self.add(maczan_citation)
 
-        self.wait(0.1)
-        self.next_slide()
-
         subhead = CleanText(
             "Four WebGPU implementations · same Metal backend · frozen-state protocol",
             font_size=18,
@@ -41,8 +38,6 @@ class CrossBackendVariation(Slide):
             color=GREY_B,
         ).next_to(heading, DOWN, buff=0.3)
         self.add(subhead)
-        self.wait(0.1)
-        self.next_slide()
 
         chart = (
             ImageMobject("assets/fig_cross_backend.png")

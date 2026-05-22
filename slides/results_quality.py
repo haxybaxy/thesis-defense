@@ -12,8 +12,6 @@ class ThetaSweep(Slide):
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
         self.add(heading)
-        self.wait(0.1)
-        self.next_slide()
 
         subhead = CleanText(
             "Sweeping opening angle θ at N = 5 000",
@@ -22,8 +20,6 @@ class ThetaSweep(Slide):
             color=GREY_B,
         ).next_to(heading, DOWN, buff=0.3)
         self.add(subhead)
-        self.wait(0.1)
-        self.next_slide()
 
         # table: theta, runtime, drift
         rows = [
@@ -40,8 +36,6 @@ class ThetaSweep(Slide):
         for x, lbl in zip(positions, col_labels):
             hdr.add(CleanText(lbl, font_size=22, weight=BOLD, color=GREY_C).move_to([x, hdr_y, 0]))
         self.add(hdr)
-        self.wait(0.1)
-        self.next_slide()
 
         for i, (theta, rt, drift, color) in enumerate(rows):
             y = 0.7 - i * 0.55
@@ -53,10 +47,7 @@ class ThetaSweep(Slide):
                 [positions[2], y, 0]
             )
             self.add(theta_t, rt_t, drift_t)
-        self.wait(0.1)
-        self.next_slide()
 
-        # headline
         tag = CleanText(
             "Two orders of magnitude across θ",
             font_size=24,
@@ -64,8 +55,6 @@ class ThetaSweep(Slide):
             color=ORANGE,
         ).to_edge(DOWN, buff=1.0)
         self.add(tag)
-        self.wait(0.1)
-        self.next_slide()
 
         insight = CleanText(
             "Precision isn't only 32-bit float — tree approximation contributes.",
@@ -74,5 +63,6 @@ class ThetaSweep(Slide):
             color=YELLOW_B,
         ).to_edge(DOWN, buff=0.5)
         self.add(insight)
+
         self.wait(0.1)
         self.next_slide()
