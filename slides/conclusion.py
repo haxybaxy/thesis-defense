@@ -11,10 +11,7 @@ class Conclusion(Slide):
             font_size=40,
             weight=BOLD,
         ).to_edge(UP, buff=0.55)
-        self.play(Write(heading))
-        self.next_slide()
-
-        # Three short stacked findings.
+        self.add(heading)
         findings = [
             ("WebGPU compute is viable", BLUE_B),
             ("Abstraction overhead is bounded", YELLOW_B),
@@ -36,30 +33,12 @@ class Conclusion(Slide):
 
         for row in finding_rows:
             self.play(FadeIn(row, shift=UP * 0.15), run_time=0.45)
-            self.next_slide()
 
-        # Practical contribution line.
-        contribution = CleanText(
-            "A real N-body simulation. Deployable as a URL. Runnable on a phone.",
-            font_size=22,
-            slant=ITALIC,
-            color=ORANGE,
-        )
-        contribution_box = SurroundingRectangle(
-            contribution,
-            color=ORANGE,
-            buff=0.25,
-            corner_radius=0.1,
-            stroke_width=2,
-        )
-        contribution_group = VGroup(contribution_box, contribution).next_to(
-            finding_rows, DOWN, buff=0.55
-        )
-        self.play(FadeIn(contribution_group, shift=UP * 0.15))
         self.next_slide()
-
         # Thank-you beat.
-        thanks = CleanText("Thank you.", font_size=34, weight=BOLD).to_edge(DOWN, buff=0.85)
+        thanks = CleanText("Thank you.", font_size=34, weight=BOLD).to_edge(
+            DOWN, buff=0.85
+        )
         questions = CleanText(
             "Questions?", font_size=22, slant=ITALIC, color=GREY_B
         ).next_to(thanks, DOWN, buff=0.15)

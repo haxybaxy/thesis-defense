@@ -39,50 +39,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/CrossBackendVariation/13553e6c444e63bf05b94355ba0d36740d366f26c9ce9a70762a7d39b440aed4.mp4",
-      "rev_file": "slides/files/CrossBackendVariation/13553e6c444e63bf05b94355ba0d36740d366f26c9ce9a70762a7d39b440aed4_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/CrossBackendVariation/3566b3354d4641efe41ee8c3f6844ecc4d6f55c8d85c7e59a16175d396a756e8.mp4",
-      "rev_file": "slides/files/CrossBackendVariation/3566b3354d4641efe41ee8c3f6844ecc4d6f55c8d85c7e59a16175d396a756e8_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/CrossBackendVariation/cd67c871094f44bfd6683d6eed3176dcb74f5362452f23255abc149482a3137b.mp4",
-      "rev_file": "slides/files/CrossBackendVariation/cd67c871094f44bfd6683d6eed3176dcb74f5362452f23255abc149482a3137b_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/CrossBackendVariation/1c8ee152e96c4edb35f8d9e979b6b5b86656470e99b1efe32a70cf9e05a11d89.mp4",
-      "rev_file": "slides/files/CrossBackendVariation/1c8ee152e96c4edb35f8d9e979b6b5b86656470e99b1efe32a70cf9e05a11d89_reversed.mp4"
+      "file": "slides/files/CrossBackendVariation/d8b4712cef856280bc98c8afa18cec296289e3e4bba8395f6784aa19a085d0b1.mp4",
+      "rev_file": "slides/files/CrossBackendVariation/d8b4712cef856280bc98c8afa18cec296289e3e4bba8395f6784aa19a085d0b1_reversed.mp4"
     }
   ],
   "resolution": [

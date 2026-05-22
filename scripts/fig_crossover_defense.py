@@ -63,10 +63,11 @@ ax_t.set_ylim(0.8, 400)
 # Annotate the closing gap at N=100K — sets up the bottom-panel story
 ax_t.annotate(
     "runtime gap narrows\n($3.8\\times \\to 1.3\\times$)",
-    xy=(N[-1], direct_ms[-1]), xytext=(N[1] * 1.1, 200),
+    xy=(N[-1], direct_ms[-1] * 0.85), xytext=(N[1] * 1.4, 1.6),
     fontsize=12, color="#374151",
+    ha="left", va="center",
     arrowprops=dict(arrowstyle="->", color="#6b7280",
-                    connectionstyle="arc3,rad=-0.2", lw=1.2),
+                    connectionstyle="arc3,rad=-0.3", lw=1.2),
 )
 
 # ── Bottom: energy drift ────────────────────────────────────────────

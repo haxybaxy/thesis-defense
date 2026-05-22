@@ -11,64 +11,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/758d5e5630f195655d4d302e3d0971a561e662e433341d545cdd171a14008d91.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/758d5e5630f195655d4d302e3d0971a561e662e433341d545cdd171a14008d91_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/9ad57d016f4dba7e772f304dd621622bd81cfd79f54d51cf25a6d8e2a2e16c8b.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/9ad57d016f4dba7e772f304dd621622bd81cfd79f54d51cf25a6d8e2a2e16c8b_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/2c94d1694e791a6635e626fef09d9d7f5f411847af70be3d1a3211f8728c90a6.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/2c94d1694e791a6635e626fef09d9d7f5f411847af70be3d1a3211f8728c90a6_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/6486f79c6d644b8712cd61ad07687126f2b4555b0c8d2739d26417689744f41b.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/6486f79c6d644b8712cd61ad07687126f2b4555b0c8d2739d26417689744f41b_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/3b0b864a18a8f7e2a94f2b1842ae61cc6d5ad8aa90dd1d0549a3aba7c54c9412.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/3b0b864a18a8f7e2a94f2b1842ae61cc6d5ad8aa90dd1d0549a3aba7c54c9412_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/69fcf09be033ea0674fece2de985af805a6b10f3869a285b8b891168646d32d4.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/69fcf09be033ea0674fece2de985af805a6b10f3869a285b8b891168646d32d4_reversed.mp4"
     }
   ],
   "resolution": [

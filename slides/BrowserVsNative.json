@@ -25,8 +25,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BrowserVsNative/efbfb210ded28dd56d8f75c57ac0fcd9ccb880ac4b208c114c523cf3e1a2712e.mp4",
-      "rev_file": "slides/files/BrowserVsNative/efbfb210ded28dd56d8f75c57ac0fcd9ccb880ac4b208c114c523cf3e1a2712e_reversed.mp4"
+      "file": "slides/files/BrowserVsNative/0c967dcc645157d62a607cbf25d53f28167f7ad357be80b729149a8f138b8c60.mp4",
+      "rev_file": "slides/files/BrowserVsNative/0c967dcc645157d62a607cbf25d53f28167f7ad357be80b729149a8f138b8c60_reversed.mp4"
     },
     {
       "loop": false,
@@ -39,36 +39,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BrowserVsNative/f45e8e0fe02317df6caa9eba40523f9255a4f2acb5bd9b23c25303e61bc3374f.mp4",
-      "rev_file": "slides/files/BrowserVsNative/f45e8e0fe02317df6caa9eba40523f9255a4f2acb5bd9b23c25303e61bc3374f_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/BrowserVsNative/4aba626ec63bdf42422e7b51b865e78f71da5c3e93fa4963696a987f9d535dd8.mp4",
-      "rev_file": "slides/files/BrowserVsNative/4aba626ec63bdf42422e7b51b865e78f71da5c3e93fa4963696a987f9d535dd8_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/BrowserVsNative/078a8e88fc71c504708c6c218e79798330dab4e5d3f90f0a730c25111c0e0ee7.mp4",
-      "rev_file": "slides/files/BrowserVsNative/078a8e88fc71c504708c6c218e79798330dab4e5d3f90f0a730c25111c0e0ee7_reversed.mp4"
+      "file": "slides/files/BrowserVsNative/92b59ee8fea204096129d7d261e531974439e2c2c4bdc237283fa3698abaee47.mp4",
+      "rev_file": "slides/files/BrowserVsNative/92b59ee8fea204096129d7d261e531974439e2c2c4bdc237283fa3698abaee47_reversed.mp4"
     }
   ],
   "resolution": [
