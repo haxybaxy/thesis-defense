@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/DemoPhone/c5ccc8d3818a81ed398da9eab8d101c579673ff37d19ad4e497b4bba6b6b693b.mp4",
+      "rev_file": "slides/files/DemoPhone/c5ccc8d3818a81ed398da9eab8d101c579673ff37d19ad4e497b4bba6b6b693b_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

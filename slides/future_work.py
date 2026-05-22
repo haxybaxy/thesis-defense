@@ -1,16 +1,16 @@
 from manim import *
 from manim_slides import Slide
 
+from _text import CleanText
+
 
 class FutureWork(Slide):
     def construct(self):
-        heading = Text(
+        heading = CleanText(
             "Future work",
             font_size=42,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
-        self.next_slide()
 
         items = [
             ("Adaptive per-particle timesteps", "Dense cores → small Δt; diffuse halos → large Δt"),
@@ -22,9 +22,9 @@ class FutureWork(Slide):
 
         rows = VGroup()
         for i, (headline, sub) in enumerate(items, start=1):
-            num = Text(f"{i}.", font_size=26, weight=BOLD, color=BLUE_B)
-            h_t = Text(headline, font_size=22, weight=BOLD)
-            s_t = Text(sub, font_size=17, color=GREY_B)
+            num = CleanText(f"{i}.", font_size=26, weight=BOLD, color=BLUE_B)
+            h_t = CleanText(headline, font_size=22, weight=BOLD)
+            s_t = CleanText(sub, font_size=17, color=GREY_B)
             text = VGroup(h_t, s_t).arrange(DOWN, aligned_edge=LEFT, buff=0.06)
             row = VGroup(num, text).arrange(RIGHT, aligned_edge=UP, buff=0.3)
             rows.add(row)
@@ -33,6 +33,6 @@ class FutureWork(Slide):
         if rows.height > 5.5:
             rows.scale(5.5 / rows.height)
 
-        for r in rows:
-            self.play(FadeIn(r, shift=RIGHT * 0.2), run_time=0.35)
-            self.next_slide()
+        self.add(heading, rows)
+        self.wait(0.1)
+        self.next_slide()

@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/ForceEvalConcept/339cebae3641cbda05e0fdc1725f5e5cadb34c20ef1ccc76058bb942a4cad8cc.mp4",
+      "rev_file": "slides/files/ForceEvalConcept/339cebae3641cbda05e0fdc1725f5e5cadb34c20ef1ccc76058bb942a4cad8cc_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

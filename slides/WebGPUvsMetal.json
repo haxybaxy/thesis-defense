@@ -11,8 +11,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/734ff08c738c609d683ef1c82a8938b3f9389d6172dd138bafea0e16ec02b0bf.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/734ff08c738c609d683ef1c82a8938b3f9389d6172dd138bafea0e16ec02b0bf_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/097aae71b527deaba401faf28913aabfb797e8c88c32b509b2a99be92c193983.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/097aae71b527deaba401faf28913aabfb797e8c88c32b509b2a99be92c193983_reversed.mp4"
     },
     {
       "loop": false,
@@ -25,8 +25,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/00f149ade38a2a06911423c0e0e03ad7a9dda010a0387570d66bf8d5aaa75bb8.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/00f149ade38a2a06911423c0e0e03ad7a9dda010a0387570d66bf8d5aaa75bb8_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/442a8098e486447dc363fc68806423b81517f6854435fe8d744cf0643d134ae3.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/442a8098e486447dc363fc68806423b81517f6854435fe8d744cf0643d134ae3_reversed.mp4"
     },
     {
       "loop": false,
@@ -39,8 +39,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/a790a0734a8a903c69ef8ed18c56c15725e49eed742a76078d30a37a7ce4c69e.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/a790a0734a8a903c69ef8ed18c56c15725e49eed742a76078d30a37a7ce4c69e_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/c1b0e57bad9e02f2e0135af792100f3a70ad490d47aa061e56333f76b911301c.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/c1b0e57bad9e02f2e0135af792100f3a70ad490d47aa061e56333f76b911301c_reversed.mp4"
     },
     {
       "loop": false,
@@ -53,8 +53,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/a7ee052bc15104b56448e193c2a7529e0ad5ccfe73978c917eee563fcb13aa75.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/a7ee052bc15104b56448e193c2a7529e0ad5ccfe73978c917eee563fcb13aa75_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/7758ef47818343c7f81362855fd1a1239916ecea649b7b5f2b90f6976c89651b.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/7758ef47818343c7f81362855fd1a1239916ecea649b7b5f2b90f6976c89651b_reversed.mp4"
     },
     {
       "loop": false,
@@ -67,13 +67,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/WebGPUvsMetal/2a91b65775505d0f32762b02110442c6edb9591e09512434b3dd8deb833754a8.mp4",
-      "rev_file": "slides/files/WebGPUvsMetal/2a91b65775505d0f32762b02110442c6edb9591e09512434b3dd8deb833754a8_reversed.mp4"
+      "file": "slides/files/WebGPUvsMetal/d194f06fb3c830f66fe489fe835f1c40d3cccf1c6f4d4fddfbe8a387485b6415.mp4",
+      "rev_file": "slides/files/WebGPUvsMetal/d194f06fb3c830f66fe489fe835f1c40d3cccf1c6f4d4fddfbe8a387485b6415_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

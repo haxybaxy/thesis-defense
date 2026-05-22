@@ -1,0 +1,65 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/MortonZCurve/57a60b1735d0b3405b9d6e5f16bea3d34ec942ac91869c82bd718fe545b08eac.mp4",
+      "rev_file": "slides/files/MortonZCurve/57a60b1735d0b3405b9d6e5f16bea3d34ec942ac91869c82bd718fe545b08eac_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/MortonZCurve/dda2128d600f9d1a30e3a52b2d80f1991391d4f4fd13456afab38a2a20c314a6.mp4",
+      "rev_file": "slides/files/MortonZCurve/dda2128d600f9d1a30e3a52b2d80f1991391d4f4fd13456afab38a2a20c314a6_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/MortonZCurve/34ab1bd013a5edc64f8ec67f20abb2794b4aacdd57f77d219dcc39255065ed2a.mp4",
+      "rev_file": "slides/files/MortonZCurve/34ab1bd013a5edc64f8ec67f20abb2794b4aacdd57f77d219dcc39255065ed2a_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/MortonZCurve/10e7f238f8885122df251ff75fd58031644b227c1b3d303f70dd02b9970ec96a.mp4",
+      "rev_file": "slides/files/MortonZCurve/10e7f238f8885122df251ff75fd58031644b227c1b3d303f70dd02b9970ec96a_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

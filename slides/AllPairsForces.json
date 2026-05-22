@@ -1,0 +1,65 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/AllPairsForces/af8569412a4998c6f0fca190335872e7ff5c195aaa28df7a9ec95fdf1fda7f83.mp4",
+      "rev_file": "slides/files/AllPairsForces/af8569412a4998c6f0fca190335872e7ff5c195aaa28df7a9ec95fdf1fda7f83_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/AllPairsForces/4da4bb40aa65a38c4130eb4796161073eca80f53216486e6ba8149deef43adc2.mp4",
+      "rev_file": "slides/files/AllPairsForces/4da4bb40aa65a38c4130eb4796161073eca80f53216486e6ba8149deef43adc2_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/AllPairsForces/3850237102ad948b9f7a3099826664e6e2a5508be2e6e8c60d9c228d40c079e9.mp4",
+      "rev_file": "slides/files/AllPairsForces/3850237102ad948b9f7a3099826664e6e2a5508be2e6e8c60d9c228d40c079e9_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/AllPairsForces/048884474f00e9f516173a2947946d90b1ece1d34560c053c70fffffc1808324.mp4",
+      "rev_file": "slides/files/AllPairsForces/048884474f00e9f516173a2947946d90b1ece1d34560c053c70fffffc1808324_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

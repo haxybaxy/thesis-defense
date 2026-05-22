@@ -1,15 +1,18 @@
 from manim import *
 from manim_slides import Slide
 
+from _text import CleanText
+
 
 class BrowserVsNative(Slide):
     def construct(self):
-        heading = Text(
+        heading = CleanText(
             "RQ3: Browser vs native",
             font_size=40,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
+        self.add(heading)
+        self.wait(0.1)
         self.next_slide()
 
         # table of overhead by N
@@ -26,35 +29,39 @@ class BrowserVsNative(Slide):
         col_labels = ["N", "Native (ms)", "Chrome (ms)", "Overhead"]
         hdr = VGroup()
         for x, lbl in zip(positions, col_labels):
-            hdr.add(Text(lbl, font_size=18, weight=BOLD, color=GREY_C).move_to([x, hdr_y, 0]))
-        self.play(FadeIn(hdr))
+            hdr.add(CleanText(lbl, font_size=18, weight=BOLD, color=GREY_C).move_to([x, hdr_y, 0]))
+        self.add(hdr)
+        self.wait(0.1)
         self.next_slide()
 
         for i, (N, native, chrome, ov, color) in enumerate(rows):
             y = 1.1 - i * 0.55
-            N_t = Text(N, font_size=20).move_to([positions[0], y, 0])
-            n_t = Text(native, font_size=20, color=BLUE_C).move_to([positions[1], y, 0])
-            c_t = Text(chrome, font_size=20, color=YELLOW_B).move_to([positions[2], y, 0])
-            o_t = Text(ov, font_size=22, weight=BOLD, color=color).move_to([positions[3], y, 0])
-            self.play(FadeIn(VGroup(N_t, n_t, c_t, o_t), shift=UP * 0.1), run_time=0.3)
+            N_t = CleanText(N, font_size=20).move_to([positions[0], y, 0])
+            n_t = CleanText(native, font_size=20, color=BLUE_C).move_to([positions[1], y, 0])
+            c_t = CleanText(chrome, font_size=20, color=YELLOW_B).move_to([positions[2], y, 0])
+            o_t = CleanText(ov, font_size=22, weight=BOLD, color=color).move_to([positions[3], y, 0])
+            self.add(N_t, n_t, c_t, o_t)
+        self.wait(0.1)
         self.next_slide()
 
         # surprise at N=1K
-        surprise = Text(
+        surprise = CleanText(
             "Chrome is actually faster at N = 1 K",
             font_size=20,
             slant=ITALIC,
             color=GREEN_B,
         ).to_edge(DOWN, buff=1.1)
-        self.play(Write(surprise))
+        self.add(surprise)
+        self.wait(0.1)
         self.next_slide()
 
         # headline
-        tag = Text(
+        tag = CleanText(
             "Overhead narrows to 1.4× at scientifically meaningful N",
             font_size=24,
             weight=BOLD,
             color=ORANGE,
         ).to_edge(DOWN, buff=0.5)
-        self.play(Write(tag))
+        self.add(tag)
+        self.wait(0.1)
         self.next_slide()

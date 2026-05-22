@@ -1,0 +1,33 @@
+{
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+
+  "reportCallIssue": "warning",
+  "reportArgumentType": "warning",
+  "reportAttributeAccessIssue": "warning",
+  "reportGeneralTypeIssues": "warning",
+
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": "none",
+  "reportMissingModuleSource": "none",
+  "reportUndefinedVariable": "none",
+  "reportPossiblyUnbound": "none",
+  "reportWildcardImportFromLibrary": "none",
+  "reportPrivateImportUsage": "none",
+  "reportAny": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownParameterType": "none",
+  "reportUnknownLambdaType": "none",
+  "reportMissingParameterType": "none",
+  "reportUnusedCallResult": "none",
+  "reportImplicitOverride": "none",
+  "reportImplicitStringConcatenation": "none",
+  "reportUntypedBaseClass": "none",
+  "reportUntypedFunctionDecorator": "none",
+  "reportUntypedClassDecorator": "none",
+  "reportUntypedNamedTuple": "none",
+  "reportMissingTypeArgument": "none",
+  "reportInvalidTypeForm": "none"
+}

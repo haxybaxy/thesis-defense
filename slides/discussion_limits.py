@@ -1,16 +1,16 @@
 from manim import *
 from manim_slides import Slide
 
+from _text import CleanText
+
 
 class Limitations(Slide):
     def construct(self):
-        heading = Text(
+        heading = CleanText(
             "Limitations",
             font_size=42,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
-        self.next_slide()
 
         items = [
             ("Single hardware platform", "Apple M2 / Metal only"),
@@ -23,9 +23,9 @@ class Limitations(Slide):
 
         bullets = VGroup()
         for headline, sub in items:
-            bullet = Text("·", font_size=28, weight=BOLD, color=ORANGE)
-            h_t = Text(headline, font_size=22, weight=BOLD)
-            s_t = Text(sub, font_size=18, color=GREY_B)
+            bullet = CleanText("·", font_size=28, weight=BOLD, color=ORANGE)
+            h_t = CleanText(headline, font_size=22, weight=BOLD)
+            s_t = CleanText(sub, font_size=18, color=GREY_B)
             text = VGroup(h_t, s_t).arrange(DOWN, aligned_edge=LEFT, buff=0.05)
             row = VGroup(bullet, text).arrange(RIGHT, aligned_edge=UP, buff=0.3)
             bullets.add(row)
@@ -34,6 +34,6 @@ class Limitations(Slide):
         if bullets.height > 5.5:
             bullets.scale(5.5 / bullets.height)
 
-        for b in bullets:
-            self.play(FadeIn(b, shift=RIGHT * 0.2), run_time=0.35)
+        self.add(heading, bullets)
+        self.wait(0.1)
         self.next_slide()

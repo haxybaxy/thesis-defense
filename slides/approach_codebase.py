@@ -21,24 +21,32 @@ class SingleCodebase(Slide):
         self.play(FadeIn(source, shift=DOWN * 0.2))
         self.next_slide()
 
-        # === Middle: four backend boxes ===
+        # === Middle: four backend boxes (with logos) ===
         backend_specs = [
-            ("wgpu-native", "Rust binding", BLUE_C),
-            ("Dawn", "Google C++ ref", YELLOW_B),
-            ("Chrome", "Wasm in browser", GREEN_B),
-            ("Safari", "Wasm in browser", PURPLE_B),
+            ("wgpu-native", "Rust binding", BLUE_C, "assets/webgpu.svg", True),
+            ("Dawn", "Google C++ ref", YELLOW_B, "assets/dawn-logo.png", False),
+            ("Chrome", "Wasm in browser", GREEN_B, "assets/chrome-logo.svg", True),
+            ("Safari", "Wasm in browser", PURPLE_B, "assets/safari-icon.svg", True),
         ]
 
-        backends = VGroup()
-        for name, sub, color in backend_specs:
-            rect = Rectangle(width=2.4, height=1.0, color=color, stroke_width=2)
-            title_t = Text(name, font_size=20, weight=BOLD).move_to(rect.get_top() + DOWN * 0.3)
-            sub_t = Text(sub, font_size=14, color=GREY_B).move_to(rect.get_bottom() + UP * 0.3)
-            # placeholder for a logo
-            logo_ph = Text("[logo]", font_size=10, color=GREY_C).next_to(title_t, RIGHT, buff=0.1)
-            backends.add(VGroup(rect, title_t, sub_t, logo_ph))
+        # Group (not VGroup) since cards mix ImageMobject + VMobjects.
+        backends = Group()
+        for name, sub, color, logo_path, is_svg in backend_specs:
+            rect = Rectangle(width=2.5, height=1.5, color=color, stroke_width=2)
+            if is_svg:
+                logo = SVGMobject(logo_path).scale_to_fit_height(0.5)
+            else:
+                logo = ImageMobject(logo_path).scale_to_fit_height(0.5)
+            logo.move_to(rect.get_top() + DOWN * 0.4)
+            title_t = Text(name, font_size=20, weight=BOLD).next_to(
+                logo, DOWN, buff=0.13
+            )
+            sub_t = Text(sub, font_size=14, color=GREY_B).next_to(
+                title_t, DOWN, buff=0.08
+            )
+            backends.add(Group(rect, logo, title_t, sub_t))
 
-        backends.arrange(RIGHT, buff=0.25).move_to(DOWN * 0.2)
+        backends.arrange(RIGHT, buff=0.3).move_to(DOWN * 0.25)
         if backends.width > 13.0:
             backends.scale(13.0 / backends.width)
 

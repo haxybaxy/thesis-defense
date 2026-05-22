@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/UniSimBaseline/06a2a16b9037c5db33621b479d7386c2447bc57cea2169d39ffb47479ce2a211.mp4",
+      "rev_file": "slides/files/UniSimBaseline/06a2a16b9037c5db33621b479d7386c2447bc57cea2169d39ffb47479ce2a211_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

@@ -11,27 +11,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ExperimentalSetup/4192305088501283901ecb1124003fcea316e9636765ba821d472bfd53aea0ca.mp4",
-      "rev_file": "slides/files/ExperimentalSetup/4192305088501283901ecb1124003fcea316e9636765ba821d472bfd53aea0ca_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/ExperimentalSetup/7ac896e93248dac36b9410629e77dcca0958a19ff804e24fde1065b56264ad46.mp4",
-      "rev_file": "slides/files/ExperimentalSetup/7ac896e93248dac36b9410629e77dcca0958a19ff804e24fde1065b56264ad46_reversed.mp4"
+      "file": "slides/files/ExperimentalSetup/912dc2c4a54111451d292214fe12a2b934593968b7de109d2c69f63975c37708.mp4",
+      "rev_file": "slides/files/ExperimentalSetup/912dc2c4a54111451d292214fe12a2b934593968b7de109d2c69f63975c37708_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

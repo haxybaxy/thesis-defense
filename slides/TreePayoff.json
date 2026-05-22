@@ -1,0 +1,93 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/99bdd3fcf5939a68342ca4db8e8726d9d390236ce1b51fa421ccd4948ea95a4e.mp4",
+      "rev_file": "slides/files/TreePayoff/99bdd3fcf5939a68342ca4db8e8726d9d390236ce1b51fa421ccd4948ea95a4e_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/6d9d17f8057531b461d5d0f198b45a35cc6a0be187118ff92a17537de55e9664.mp4",
+      "rev_file": "slides/files/TreePayoff/6d9d17f8057531b461d5d0f198b45a35cc6a0be187118ff92a17537de55e9664_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/3ae51fe0b5132bfe043589428637fa7298df0535a4ca8a71cbab9d93f8093ab1.mp4",
+      "rev_file": "slides/files/TreePayoff/3ae51fe0b5132bfe043589428637fa7298df0535a4ca8a71cbab9d93f8093ab1_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/2ba11445dff26f753e9d91c815e78167c65185cc21d3e209330a0aebf10d1f6d.mp4",
+      "rev_file": "slides/files/TreePayoff/2ba11445dff26f753e9d91c815e78167c65185cc21d3e209330a0aebf10d1f6d_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/6d776462f40e8fecf59ac2532a28aceb9e8d826228fca0ac7098489e92c97c01.mp4",
+      "rev_file": "slides/files/TreePayoff/6d776462f40e8fecf59ac2532a28aceb9e8d826228fca0ac7098489e92c97c01_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/TreePayoff/a18096a808e5c4a458ab9a9f73866a731a1a30c5954ddc5c412f6d67f1f0e984.mp4",
+      "rev_file": "slides/files/TreePayoff/a18096a808e5c4a458ab9a9f73866a731a1a30c5954ddc5c412f6d67f1f0e984_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

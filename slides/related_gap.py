@@ -13,11 +13,11 @@ class TheGap(Slide):
         self.next_slide()
 
         # 2×2 quadrant chart
-        # x-axis: complete pipeline (no → yes)
-        # y-axis: browser-deployable (no → yes)
+        #   x-axis: graphics  →  general compute
+        #   y-axis: isolated kernel  →  full pipeline
         origin = ORIGIN + DOWN * 0.4
-        x_len = 6.0
-        y_len = 4.0
+        x_len = 8.0
+        y_len = 4.6
 
         axes = VGroup(
             Arrow(
@@ -39,55 +39,90 @@ class TheGap(Slide):
         )
         self.play(Create(axes))
 
-        x_label = Text("complete pipeline", font_size=20, color=GREY_B).next_to(
-            axes[0], DOWN, buff=0.15
+        # Axis end-labels (left/right and bottom/top).
+        x_left = Text("graphics", font_size=18, color=GREY_B).next_to(
+            axes[0].get_start(), DL, buff=0.15
         )
-        y_label = (
-            Text("browser-deployable", font_size=20, color=GREY_B)
-            .rotate(PI / 2)
-            .next_to(axes[1], LEFT, buff=0.15)
+        x_right = Text("general compute", font_size=18, color=GREY_B).next_to(
+            axes[0].get_end(), DR, buff=0.15
         )
-        self.play(FadeIn(x_label), FadeIn(y_label))
+        y_bot = Text("isolated kernel", font_size=18, color=GREY_B).next_to(
+            axes[1].get_start(), DOWN, buff=0.2
+        )
+        y_top = Text("full pipeline", font_size=18, color=GREY_B).next_to(
+            axes[1].get_end(), UP, buff=0.2
+        )
+        self.play(FadeIn(x_left), FadeIn(x_right), FadeIn(y_bot), FadeIn(y_top))
         self.next_slide()
 
-        # Quadrant chip helper
+        # Quadrant chip helper.
         def chip(text, pos, color):
             t = Text(text, font_size=18, color=color)
             box = SurroundingRectangle(
-                t, color=color, buff=0.15, corner_radius=0.08, stroke_width=1.5
-            )
+                t,
+                color=color,
+                buff=0.15,
+                corner_radius=0.08,
+                stroke_width=1.5,
+            ).set_fill(BLACK, opacity=0.35)
             return VGroup(box, t).move_to(pos)
 
-        # Existing native GPU work: complete pipeline, NOT browser
-        ne_native = chip(
-            "Burtscher 2011\nGaburov 2010\n(CUDA / Metal)",
-            origin + RIGHT * x_len * 0.27 + DOWN * y_len * 0.27,
+        # Top-left: graphics, full pipeline → WebGL rendering demos.
+        nw = chip(
+            "WebGL rendering\ndemos",
+            origin + LEFT * x_len * 0.27 + UP * y_len * 0.27,
             BLUE_B,
         )
-        # Isolated browser kernels: browser, NOT complete pipeline
-        nw_browser_kernels = chip(
-            "Browser GPU kernels\n(matmul, reductions)",
-            origin + LEFT * x_len * 0.27 + UP * y_len * 0.27,
+        # Bottom-left: graphics, isolated kernel → shader benchmarks.
+        sw = chip(
+            "shader\nbenchmarks",
+            origin + LEFT * x_len * 0.27 + DOWN * y_len * 0.27,
             YELLOW_B,
         )
-        # This thesis: both
-        ne_us = chip(
-            "★ This thesis",
-            origin + RIGHT * x_len * 0.27 + UP * y_len * 0.27,
-            GREEN_B,
+        # Bottom-right: compute, isolated kernel → vector-add / matmul.
+        se = chip(
+            "vector-add  ·  matmul\n(isolated WebGPU kernels)",
+            origin + RIGHT * x_len * 0.27 + DOWN * y_len * 0.27,
+            ORANGE,
         )
+        # Top-right: compute, full pipeline → this thesis (glow).
+        ne_pos = origin + RIGHT * x_len * 0.27 + UP * y_len * 0.27
+        glow_layers = VGroup()
+        for r, opacity in [(0.95, 0.10), (0.75, 0.18), (0.55, 0.30)]:
+            glow_layers.add(
+                Circle(radius=r, color=GREEN_B, stroke_width=0)
+                .set_fill(GREEN_B, opacity=opacity)
+                .move_to(ne_pos)
+            )
+        thesis_dot = Dot(ne_pos, radius=0.13, color=GREEN_B)
+        thesis_label = Text(
+            "★ this thesis",
+            font_size=22,
+            weight=BOLD,
+            color=GREEN_B,
+        ).next_to(thesis_dot, UP, buff=0.25)
 
-        self.play(FadeIn(ne_native, shift=UP * 0.2))
+        self.play(FadeIn(nw, shift=UP * 0.15))
         self.next_slide()
-        self.play(FadeIn(nw_browser_kernels, shift=UP * 0.2))
+        self.play(FadeIn(sw, shift=UP * 0.15))
         self.next_slide()
-        self.play(FadeIn(ne_us, shift=UP * 0.2))
+        self.play(FadeIn(se, shift=UP * 0.15))
+        self.next_slide()
+        self.play(
+            FadeIn(glow_layers, scale=0.9),
+            FadeIn(thesis_dot),
+            FadeIn(thesis_label, shift=UP * 0.15),
+            run_time=0.7,
+        )
+        self.next_slide()
 
-        # highlight us
-        pulse = SurroundingRectangle(ne_us, color=GREEN_B, buff=0.05, stroke_width=3)
-        self.play(Create(pulse))
-        self.next_slide()
-
+        # Gentle pulsing glow on the thesis position to land the point.
         self.next_slide(loop=True)
-        self.play(pulse.animate.set_stroke(width=6), run_time=0.6)
-        self.play(pulse.animate.set_stroke(width=3), run_time=0.6)
+        self.play(
+            glow_layers.animate.scale(1.08),
+            run_time=0.7,
+        )
+        self.play(
+            glow_layers.animate.scale(1 / 1.08),
+            run_time=0.7,
+        )

@@ -1,24 +1,28 @@
 from manim import *
 from manim_slides import Slide
 
+from _text import CleanText
+
 
 class ThetaSweep(Slide):
     def construct(self):
-        heading = Text(
+        heading = CleanText(
             "Numerical quality: the θ sweep",
             font_size=40,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
+        self.add(heading)
+        self.wait(0.1)
         self.next_slide()
 
-        subhead = Text(
+        subhead = CleanText(
             "Sweeping opening angle θ at N = 5 000",
             font_size=20,
             slant=ITALIC,
             color=GREY_B,
         ).next_to(heading, DOWN, buff=0.3)
-        self.play(FadeIn(subhead))
+        self.add(subhead)
+        self.wait(0.1)
         self.next_slide()
 
         # table: theta, runtime, drift
@@ -34,8 +38,9 @@ class ThetaSweep(Slide):
         col_labels = ["θ", "Runtime", "Energy drift"]
         hdr = VGroup()
         for x, lbl in zip(positions, col_labels):
-            hdr.add(Text(lbl, font_size=22, weight=BOLD, color=GREY_C).move_to([x, hdr_y, 0]))
-        self.play(FadeIn(hdr))
+            hdr.add(CleanText(lbl, font_size=22, weight=BOLD, color=GREY_C).move_to([x, hdr_y, 0]))
+        self.add(hdr)
+        self.wait(0.1)
         self.next_slide()
 
         for i, (theta, rt, drift, color) in enumerate(rows):
@@ -43,28 +48,31 @@ class ThetaSweep(Slide):
             theta_t = MathTex(rf"\theta = {theta}", font_size=28, color=color).move_to(
                 [positions[0], y, 0]
             )
-            rt_t = Text(rt, font_size=22).move_to([positions[1], y, 0])
-            drift_t = Text(drift, font_size=22, weight=BOLD, color=color).move_to(
+            rt_t = CleanText(rt, font_size=22).move_to([positions[1], y, 0])
+            drift_t = CleanText(drift, font_size=22, weight=BOLD, color=color).move_to(
                 [positions[2], y, 0]
             )
-            self.play(FadeIn(VGroup(theta_t, rt_t, drift_t), shift=UP * 0.1), run_time=0.35)
+            self.add(theta_t, rt_t, drift_t)
+        self.wait(0.1)
         self.next_slide()
 
         # headline
-        tag = Text(
+        tag = CleanText(
             "Two orders of magnitude across θ",
             font_size=24,
             weight=BOLD,
             color=ORANGE,
         ).to_edge(DOWN, buff=1.0)
-        self.play(Write(tag))
+        self.add(tag)
+        self.wait(0.1)
         self.next_slide()
 
-        insight = Text(
+        insight = CleanText(
             "Precision isn't only 32-bit float — tree approximation contributes.",
             font_size=18,
             slant=ITALIC,
             color=YELLOW_B,
         ).to_edge(DOWN, buff=0.5)
-        self.play(FadeIn(insight))
+        self.add(insight)
+        self.wait(0.1)
         self.next_slide()

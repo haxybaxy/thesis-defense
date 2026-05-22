@@ -31,7 +31,7 @@ class Pipeline(Slide):
             box = (
                 Rectangle(width=2.6, height=0.7, color=color, stroke_width=3)
                 .set_fill(color, opacity=0.18)
-                .move_to(LEFT * 4 + UP * (2.0 - i * 1.0))
+                .move_to(UP * (2.0 - i * 1.0))
             )
             title_text = Text(
                 title, font_size=22, color=color, weight=BOLD
@@ -60,7 +60,61 @@ class Pipeline(Slide):
             self.play(*anims, run_time=0.5)
             self.next_slide()
 
+        # === KDK structure: mark where the kicks and drift live ===
+        # Two BLUE braces on the half-kick boxes; TEAL brace on the drift box.
+        # A grey annotation makes explicit that BVH work sits between the kicks.
+        kick0_brace = Brace(boxes[0][0], direction=LEFT, color=BLUE, buff=0.18)
+        kick0_label = Text("kick · v at n+½", font_size=18, color=BLUE).next_to(
+            kick0_brace, LEFT, buff=0.1
+        )
+        drift_brace = Brace(boxes[1][0], direction=LEFT, color=TEAL, buff=0.18)
+        drift_label = Text("drift · r at n+1", font_size=18, color=TEAL).next_to(
+            drift_brace, LEFT, buff=0.1
+        )
+        kick1_brace = Brace(boxes[4][0], direction=LEFT, color=BLUE, buff=0.18)
+        kick1_label = Text("kick · v at n+1", font_size=18, color=BLUE).next_to(
+            kick1_brace, LEFT, buff=0.1
+        )
+        between_note = Text(
+            "tree build + force eval\nlive between the half-kicks",
+            font_size=15,
+            color=GRAY_A,
+        ).move_to(
+            (boxes[2][0].get_left() + boxes[3][0].get_left()) / 2 + LEFT * 1.1
+        )
+
+        self.play(
+            GrowFromCenter(kick0_brace),
+            FadeIn(kick0_label, shift=RIGHT * 0.1),
+            GrowFromCenter(drift_brace),
+            FadeIn(drift_label, shift=RIGHT * 0.1),
+            GrowFromCenter(kick1_brace),
+            FadeIn(kick1_label, shift=RIGHT * 0.1),
+        )
+        self.play(FadeIn(between_note, shift=RIGHT * 0.1))
+        self.next_slide()
+
+        kdk_annotations = VGroup(
+            kick0_brace,
+            kick0_label,
+            drift_brace,
+            drift_label,
+            kick1_brace,
+            kick1_label,
+            between_note,
+        )
+        self.play(FadeOut(kdk_annotations))
+
         # === Expand the LBVH Build box ===
+        # Shift the main pipeline column LEFT so the six sub-passes have room
+        # on the right side. The equations fade out as part of the same move.
+        pipeline_group = VGroup(boxes, arrows)
+        self.play(
+            FadeOut(maths),
+            pipeline_group.animate.shift(LEFT * 3),
+            run_time=0.7,
+        )
+
         lbvh_box = boxes[2][0]
         sub_passes = [
             "1. AABB reduce",
@@ -93,10 +147,9 @@ class Pipeline(Slide):
             tip_length=0.2,
         )
         self.play(
-            FadeOut(maths),
             GrowArrow(zoom_arrow),
             FadeIn(sub_boxes, lag_ratio=0.12),
-            run_time=1.2,
+            run_time=1.0,
         )
         self.next_slide()
 

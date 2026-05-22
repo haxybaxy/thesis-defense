@@ -1,15 +1,18 @@
 from manim import *
 from manim_slides import Slide
 
+from _text import CleanText
+
 
 class WebGPUvsMetal(Slide):
     def construct(self):
-        heading = Text(
+        heading = CleanText(
             "RQ2: WebGPU vs native Metal",
             font_size=40,
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
-        self.play(Write(heading))
+        self.add(heading)
+        self.wait(0.1)
         self.next_slide()
 
         # Bar-chart-style comparison at 5 N values
@@ -24,46 +27,50 @@ class WebGPUvsMetal(Slide):
 
         # column headers
         hdr_y = 1.8
-        hdr_N = Text("N", font_size=20, weight=BOLD, color=GREY_C).move_to(LEFT * 5.0 + UP * hdr_y)
-        hdr_w = Text("WebGPU (ms)", font_size=18, weight=BOLD, color=BLUE_B).move_to(
+        hdr_N = CleanText("N", font_size=20, weight=BOLD, color=GREY_C).move_to(LEFT * 5.0 + UP * hdr_y)
+        hdr_w = CleanText("WebGPU (ms)", font_size=18, weight=BOLD, color=BLUE_B).move_to(
             LEFT * 2.0 + UP * hdr_y
         )
-        hdr_m = Text("Metal (ms)", font_size=18, weight=BOLD, color=ORANGE).move_to(
+        hdr_m = CleanText("Metal (ms)", font_size=18, weight=BOLD, color=ORANGE).move_to(
             RIGHT * 1.0 + UP * hdr_y
         )
-        hdr_r = Text("WebGPU / Metal", font_size=18, weight=BOLD, color=GREY_C).move_to(
+        hdr_r = CleanText("WebGPU / Metal", font_size=18, weight=BOLD, color=GREY_C).move_to(
             RIGHT * 4.2 + UP * hdr_y
         )
-        self.play(FadeIn(VGroup(hdr_N, hdr_w, hdr_m, hdr_r)))
+        self.add(hdr_N, hdr_w, hdr_m, hdr_r)
+        self.wait(0.1)
         self.next_slide()
 
         # rows
         for i, (N, w, m, r, ratio_color) in enumerate(N_vals):
             y = 1.2 - i * 0.55
-            N_t = Text(N, font_size=20).move_to(LEFT * 5.0 + UP * y)
-            w_t = Text(w, font_size=20, color=BLUE_C).move_to(LEFT * 2.0 + UP * y)
-            m_t = Text(m, font_size=20, color=ORANGE).move_to(RIGHT * 1.0 + UP * y)
-            r_t = Text(r, font_size=22, weight=BOLD, color=ratio_color).move_to(
+            N_t = CleanText(N, font_size=20).move_to(LEFT * 5.0 + UP * y)
+            w_t = CleanText(w, font_size=20, color=BLUE_C).move_to(LEFT * 2.0 + UP * y)
+            m_t = CleanText(m, font_size=20, color=ORANGE).move_to(RIGHT * 1.0 + UP * y)
+            r_t = CleanText(r, font_size=22, weight=BOLD, color=ratio_color).move_to(
                 RIGHT * 4.2 + UP * y
             )
-            self.play(FadeIn(VGroup(N_t, w_t, m_t, r_t), shift=UP * 0.1), run_time=0.25)
+            self.add(N_t, w_t, m_t, r_t)
+        self.wait(0.1)
         self.next_slide()
 
         # headline
-        tag = Text(
+        tag = CleanText(
             "2.0× slower at N=1K  →  2.9× FASTER at N=100K",
             font_size=24,
             weight=BOLD,
             color=YELLOW_B,
         ).to_edge(DOWN, buff=0.8)
-        self.play(Write(tag))
+        self.add(tag)
+        self.wait(0.1)
         self.next_slide()
 
-        caveat = Text(
+        caveat = CleanText(
             "Implementation-level result — our pipeline is GPU-resident; UniSim has CPU↔GPU coordination.",
             font_size=14,
             slant=ITALIC,
             color=GREY_B,
         ).to_edge(DOWN, buff=0.3)
-        self.play(FadeIn(caveat))
+        self.add(caveat)
+        self.wait(0.1)
         self.next_slide()

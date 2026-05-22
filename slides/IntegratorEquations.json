@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "type": "video",
+      "direction": "horizontal",
+      "file": "slides/files/IntegratorEquations/055414e62f567805907f50f15d81d70d38c15ee8941c5d82c2d39c2c081611df.mp4",
+      "rev_file": "slides/files/IntegratorEquations/055414e62f567805907f50f15d81d70d38c15ee8941c5d82c2d39c2c081611df_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    854,
+    480
+  ],
+  "background_color": "black"
+}
