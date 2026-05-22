@@ -12,8 +12,6 @@ class WhereTimeIsSpent(Slide):
             weight=BOLD,
         ).to_edge(UP, buff=0.6)
         self.add(heading)
-        self.wait(0.1)
-        self.next_slide()
 
         # Big LBVH breakdown chart on the right
         breakdown_img = ImageMobject(
@@ -21,8 +19,6 @@ class WhereTimeIsSpent(Slide):
         ).scale_to_fit_height(5.2)
         breakdown_img.to_edge(RIGHT, buff=1.4).shift(DOWN * 0.3)
         self.add(breakdown_img)
-        self.wait(0.1)
-        self.next_slide()
 
         # Three headline cards stacked vertically on the LEFT
         callouts = [

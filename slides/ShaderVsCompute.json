@@ -11,8 +11,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ShaderVsCompute/ee5cc38ac4503687df5ceb28fff11789b21ca2bf9012a92da0aeb8bf250671a6.mp4",
-      "rev_file": "slides/files/ShaderVsCompute/ee5cc38ac4503687df5ceb28fff11789b21ca2bf9012a92da0aeb8bf250671a6_reversed.mp4"
+      "file": "slides/files/ShaderVsCompute/67601cee24bd406f898ca67893a17e700df11489367bf064e678603e162ce7e0.mp4",
+      "rev_file": "slides/files/ShaderVsCompute/67601cee24bd406f898ca67893a17e700df11489367bf064e678603e162ce7e0_reversed.mp4"
     },
     {
       "loop": false,
@@ -25,8 +25,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ShaderVsCompute/086094b41c979e67ebbbd316fc5f898c29f1daf2a146506e41ee2c78e0267171.mp4",
-      "rev_file": "slides/files/ShaderVsCompute/086094b41c979e67ebbbd316fc5f898c29f1daf2a146506e41ee2c78e0267171_reversed.mp4"
+      "file": "slides/files/ShaderVsCompute/d5540b69c50df8f0bd2f7810e7baa2bb97f7a786b2705ac81861ddcbc17d2b97.mp4",
+      "rev_file": "slides/files/ShaderVsCompute/d5540b69c50df8f0bd2f7810e7baa2bb97f7a786b2705ac81861ddcbc17d2b97_reversed.mp4"
     },
     {
       "loop": false,
@@ -39,13 +39,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ShaderVsCompute/57111ed5d9c3464c14272afb5b56c1b6d0418301b4fc307db09202e216dc169f.mp4",
-      "rev_file": "slides/files/ShaderVsCompute/57111ed5d9c3464c14272afb5b56c1b6d0418301b4fc307db09202e216dc169f_reversed.mp4"
+      "file": "slides/files/ShaderVsCompute/b181178f09db5ba5405de0dab8338db7b2811784336f6e11feb824a10ecc0ec2.mp4",
+      "rev_file": "slides/files/ShaderVsCompute/b181178f09db5ba5405de0dab8338db7b2811784336f6e11feb824a10ecc0ec2_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

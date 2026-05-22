@@ -11,13 +11,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BroaderImpact/1bc102f1928084c41ebfdfbbfcc84ef3fbd2de86f9006db429eac41cbbaa3a96.mp4",
-      "rev_file": "slides/files/BroaderImpact/1bc102f1928084c41ebfdfbbfcc84ef3fbd2de86f9006db429eac41cbbaa3a96_reversed.mp4"
+      "file": "slides/files/BroaderImpact/b7a22097c1db249d525cc20d5fa457ed92ffe6ac60f1f94387344710f12caf8a.mp4",
+      "rev_file": "slides/files/BroaderImpact/b7a22097c1db249d525cc20d5fa457ed92ffe6ac60f1f94387344710f12caf8a_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

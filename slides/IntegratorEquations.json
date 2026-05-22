@@ -11,13 +11,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/IntegratorEquations/055414e62f567805907f50f15d81d70d38c15ee8941c5d82c2d39c2c081611df.mp4",
-      "rev_file": "slides/files/IntegratorEquations/055414e62f567805907f50f15d81d70d38c15ee8941c5d82c2d39c2c081611df_reversed.mp4"
+      "file": "slides/files/IntegratorEquations/cf5a3e54c7a52cc66edbc7b5563deee4d533faa9f5e6635cc1fcaa3b37a281ba.mp4",
+      "rev_file": "slides/files/IntegratorEquations/cf5a3e54c7a52cc66edbc7b5563deee4d533faa9f5e6635cc1fcaa3b37a281ba_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

@@ -11,13 +11,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/FutureWork/bc961240d7979c2c399e0163ac0f56c2981455437316574fe0c8083ade4cd5f6.mp4",
-      "rev_file": "slides/files/FutureWork/bc961240d7979c2c399e0163ac0f56c2981455437316574fe0c8083ade4cd5f6_reversed.mp4"
+      "file": "slides/files/FutureWork/c275eb51a05230edd71dc19c6153adb7f3b79fa833513d87db147b93b9963f63.mp4",
+      "rev_file": "slides/files/FutureWork/c275eb51a05230edd71dc19c6153adb7f3b79fa833513d87db147b93b9963f63_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

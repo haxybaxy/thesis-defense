@@ -129,12 +129,12 @@ class IntegratorOrbits(Slide):
             "energy grows → orbit decays",
             font_size=20,
             color=RED,
-        ).move_to(left_offset + DOWN * (ideal_radius + 0.55))
+        ).move_to(left_offset + DOWN * (ideal_radius + 1.3))
         lf_caption = CleanText(
             "energy bounded → orbit closes",
             font_size=20,
             color=GREEN,
-        ).move_to(right_offset + DOWN * (ideal_radius + 0.55))
+        ).move_to(right_offset + DOWN * (ideal_radius + 1.3))
         self.play(
             FadeIn(eul_caption, shift=UP * 0.1),
             FadeIn(lf_caption, shift=UP * 0.1),

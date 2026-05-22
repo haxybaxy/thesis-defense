@@ -11,8 +11,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ComputeCentric/f3e16d447504d74088e4c0253cd39f91205065834f523b062530b7263fc235f2.mp4",
-      "rev_file": "slides/files/ComputeCentric/f3e16d447504d74088e4c0253cd39f91205065834f523b062530b7263fc235f2_reversed.mp4"
+      "file": "slides/files/ComputeCentric/21b859ce703e2be9a4b561989503836b68ee8baa827ad8a5349304f49ca4ab8a.mp4",
+      "rev_file": "slides/files/ComputeCentric/21b859ce703e2be9a4b561989503836b68ee8baa827ad8a5349304f49ca4ab8a_reversed.mp4"
     },
     {
       "loop": false,
@@ -25,13 +25,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/ComputeCentric/fb6844a82bac448caf1ad54e2ad1596c667925c6165049754b931a5a04d9d3c9.mp4",
-      "rev_file": "slides/files/ComputeCentric/fb6844a82bac448caf1ad54e2ad1596c667925c6165049754b931a5a04d9d3c9_reversed.mp4"
+      "file": "slides/files/ComputeCentric/bd4fa9cc839f6404876bbcccc34ffd570c4be93b9330014ffa8f47323dadffed.mp4",
+      "rev_file": "slides/files/ComputeCentric/bd4fa9cc839f6404876bbcccc34ffd570c4be93b9330014ffa8f47323dadffed_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }

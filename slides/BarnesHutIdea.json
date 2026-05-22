@@ -11,8 +11,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BarnesHutIdea/d717eed440603d0b4784b5830bde3a19cd71c6eac77afc98aa5a51fd725bff26.mp4",
-      "rev_file": "slides/files/BarnesHutIdea/d717eed440603d0b4784b5830bde3a19cd71c6eac77afc98aa5a51fd725bff26_reversed.mp4"
+      "file": "slides/files/BarnesHutIdea/db609c9d342ee8448e50fcad266cb07abd92f8c240e37b83a68c829cc58c481e.mp4",
+      "rev_file": "slides/files/BarnesHutIdea/db609c9d342ee8448e50fcad266cb07abd92f8c240e37b83a68c829cc58c481e_reversed.mp4"
     },
     {
       "loop": false,
@@ -25,8 +25,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BarnesHutIdea/e3db1fde0fbd22a9a33dd52b924e6f59fc2e6a0ab7762bb1065a7abe6b4c41a8.mp4",
-      "rev_file": "slides/files/BarnesHutIdea/e3db1fde0fbd22a9a33dd52b924e6f59fc2e6a0ab7762bb1065a7abe6b4c41a8_reversed.mp4"
+      "file": "slides/files/BarnesHutIdea/b2a04dcfee9bda315dbaf1f41227d8dd1bd10570176c1a0a496cb2f11784a3c2.mp4",
+      "rev_file": "slides/files/BarnesHutIdea/b2a04dcfee9bda315dbaf1f41227d8dd1bd10570176c1a0a496cb2f11784a3c2_reversed.mp4"
     },
     {
       "loop": false,
@@ -39,36 +39,8 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/BarnesHutIdea/6cc09162da626b84e39b33fc30d500c52d584c2fad03eeefbf9caeb0839c65ed.mp4",
-      "rev_file": "slides/files/BarnesHutIdea/6cc09162da626b84e39b33fc30d500c52d584c2fad03eeefbf9caeb0839c65ed_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/BarnesHutIdea/03498e500a6262e2a373436ecd317b6fc797923fe56fc4bd702b930a1c538216.mp4",
-      "rev_file": "slides/files/BarnesHutIdea/03498e500a6262e2a373436ecd317b6fc797923fe56fc4bd702b930a1c538216_reversed.mp4"
-    },
-    {
-      "loop": false,
-      "auto_next": false,
-      "playback_rate": 1.0,
-      "reversed_playback_rate": 1.0,
-      "notes": "",
-      "dedent_notes": true,
-      "skip_animations": false,
-      "src": null,
-      "type": "video",
-      "direction": "horizontal",
-      "file": "slides/files/BarnesHutIdea/90dfa6758556a62fb6da35ab925ffffe0b7f69956d3eb232930986083f7c4fc9.mp4",
-      "rev_file": "slides/files/BarnesHutIdea/90dfa6758556a62fb6da35ab925ffffe0b7f69956d3eb232930986083f7c4fc9_reversed.mp4"
+      "file": "slides/files/BarnesHutIdea/b95ad19f6bda713d785413cbe24eec2e03b32fcda95ea835ddfadd250d2a7c58.mp4",
+      "rev_file": "slides/files/BarnesHutIdea/b95ad19f6bda713d785413cbe24eec2e03b32fcda95ea835ddfadd250d2a7c58_reversed.mp4"
     }
   ],
   "resolution": [
