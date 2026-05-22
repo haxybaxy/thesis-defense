@@ -11,13 +11,13 @@
       "src": null,
       "type": "video",
       "direction": "horizontal",
-      "file": "slides/files/SingleCodebase/63c1630e57ea1f8a40ed894867fb20d921cb13976c0caabcae5fdd7f1d0d0859.mp4",
-      "rev_file": "slides/files/SingleCodebase/63c1630e57ea1f8a40ed894867fb20d921cb13976c0caabcae5fdd7f1d0d0859_reversed.mp4"
+      "file": "slides/files/SingleCodebase/0f1747083ea88b11454be4c59cee24fdb01124e3cff39d27b39e5de0338a816b.mp4",
+      "rev_file": "slides/files/SingleCodebase/0f1747083ea88b11454be4c59cee24fdb01124e3cff39d27b39e5de0338a816b_reversed.mp4"
     }
   ],
   "resolution": [
-    854,
-    480
+    1920,
+    1080
   ],
   "background_color": "black"
 }
